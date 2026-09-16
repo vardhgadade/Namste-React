@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# How to run container :- docker run --rm --name my-react-container -p 3000:3000 my-react-app 
+# docker run --rm -p 3000:3000 my-react-app
