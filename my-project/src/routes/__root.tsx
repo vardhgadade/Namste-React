@@ -2,8 +2,9 @@ import { createRootRoute, Outlet } from "@tanstack/react-router";
 import Header from "../component/Headers";
 import Footer from "../component/Footer";
 
-export const Route=createRootRoute({
-    component:MainLayout,
+export const Route = createRootRoute({
+  component: MainLayout,
+  notFoundComponent: () => <div className="p-8">404 — Page not found</div>,
 })
 
 function MainLayout(){
